@@ -104,14 +104,14 @@ spec:
   owner: team-alpha
   system: sample-system
 
----
-apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: sample-domain
-  description: Sample domain which has stuff for demoing.
-spec:
-  owner: team-alpha
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: Domain
+# metadata:
+#   name: sample-domain
+#   description: Sample domain which has stuff for demoing.
+# spec:
+#   owner: team-alpha
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -123,7 +123,7 @@ metadata:
 spec:
   type: sample
   owner: team-alpha
-  domain: sample-domain
+  # domain: sample-domain
 
 ---
 apiVersion: backstage.io/v1alpha1
