@@ -73,6 +73,7 @@ metadata:
     - url: https://www.notion.so/roadie/Sample-Service-e067465e56a14ae9b0507f8559f6aa26
       title: Notion
       icon: book
+
 spec:
   type: openapi
   lifecycle: production
@@ -82,22 +83,22 @@ spec:
     $text: https://github.com/RoadieHQ/sample-service/blob/main/api-spec.yaml
 
 
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: API
-# metadata:
-#   title: Sample OpenApi Ref API
-#   name: open-api-ref-sample
-#   description: Sample catalog file referencing Petstore openapi spec
-#   tags:
-#     - unstable
-# spec:
-#   type: openapi
-#   lifecycle: production
-#   owner: team-alpha
-#   system: sample-system
-#   definition:
-#     $text: https://petstore.swagger.io/v2/swagger.json
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  title: Sample OpenApi Ref API
+  name: open-api-ref-sample
+  description: Sample catalog file referencing Petstore openapi spec
+  tags:
+    - unstable
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-alpha
+  system: sample-system
+  definition:
+    $text: https://petstore.swagger.io/v2/swagger.json
 
 # ---
 # apiVersion: backstage.io/v1alpha1
