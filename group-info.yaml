@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name:   yaml-team
+  name:   yamlteam
   description: YAML team
 spec:
   type: business-unit
