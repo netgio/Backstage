@@ -1,0 +1,14 @@
+{
+    "error": {
+        "name": "InputError",
+        "message": "NotAllowedError: Entity group:default/yaml-team at url:https://github.com/netgio/Backstage/blob/main/catalog-info.yaml, originated at url:https://github.com/netgio/Backstage/blob/main/catalog-info.yaml, is not of an allowed kind for that location",
+        "stack": "InputError: NotAllowedError: Entity group:default/yaml-team at url:https://github.com/netgio/Backstage/blob/main/catalog-info.yaml, originated at url:https://github.com/netgio/Backstage/blob/main/catalog-info.yaml, is not of an allowed kind for that location\n at DefaultLocationService.processEntities (/Users/gary/Documents/git/backstage-poc/node_modules/@backstage/plugin-catalog-backend/dist/cjs/CatalogBuilder-c40214f8.cjs.js:2057:15)\n at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n at async DefaultLocationService.dryRunCreateLocation (/Users/gary/Documents/git/backstage-poc/node_modules/@backstage/plugin-catalog-backend/dist/cjs/CatalogBuilder-c40214f8.cjs.js:2088:22)\n at async /Users/gary/Documents/git/backstage-poc/node_modules/@backstage/plugin-catalog-backend/dist/cjs/CatalogBuilder-c40214f8.cjs.js:5137:22"
+    },
+    "request": {
+        "method": "POST",
+        "url": "/locations?dryRun=true"
+    },
+    "response": {
+        "statusCode": 400
+    }
+}
