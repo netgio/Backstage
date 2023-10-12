@@ -74,8 +74,8 @@ spec:
   lifecycle: production
   owner: team-alpha
   system: sample-system
-  # definition:
-  #   $text: https://github.com/RoadieHQ/sample-service/blob/main/api-spec.yaml
+  definition:
+    $text: https://github.com/RoadieHQ/sample-service/blob/main/api-spec.yaml
 
 # ---
 # apiVersion: backstage.io/v1alpha1
